@@ -1,0 +1,50 @@
+.header {
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__link {
+    text-decoration: none;
+
+    color: #000000;
+
+    font-size: 17px;
+    line-height: 21px;
+
+    font-weight: 600;
+
+    &--active {
+      cursor: default;
+    }
+  }
+
+  &__cart {
+    position: relative;
+  }
+
+  &__cart-amount {
+    position: absolute;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+    font-size: 14px;
+    line-height: 18px;
+
+    bottom: 0;
+    right: 0;
+
+    width: 25px;
+    height: 25px;
+
+    transform: translate(100%, 100%);
+    border: 1px solid #000;
+  }
+}

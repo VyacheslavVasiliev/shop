@@ -1,0 +1,42 @@
+.cart-counter {
+  display: flex;
+  &__button {
+    width: 35px;
+    height: 35px;
+
+    cursor: pointer;
+
+    background-color: transparent;
+    border: none;
+
+    font-size: 26px;
+    line-height: 32px;
+
+    @media (min-width: 768px) {
+      width: 25px;
+      height: 25px;
+
+      font-size: 16px;
+      line-height: 21px;
+    }
+  }
+
+  &__number {
+    width: 35px;
+    height: 35px;
+
+    text-align: center;
+    font-weight: 600;
+
+    font-size: 24px;
+    line-height: 32px;
+
+    @media (min-width: 768px) {
+      width: 25px;
+      height: 25px;
+
+      font-size: 16px;
+      line-height: 21px;
+    }
+  }
+}
